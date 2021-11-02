@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda</title>
 </head>
 <body>
     <div id="contenedor">
         <form name="formulario1" id="formulario1" method="post" action="/registrar">
-            <h1>Hola!, los datos del producto</h1>
+            <h1>Hola! los datos del producto</h1>
 
             <table>
                 <tbody>
@@ -31,7 +31,11 @@
                     </tr>
                 </tbody>
             </table>
+            <input type="submit" value="Registrar">
 
+        </form>
+        <form name="formulario2" id="formulario2" action="/consultarTodos" method="get">
+            <input type="submit" value="consultarTodos">
         </form>
     </div>
 </body>

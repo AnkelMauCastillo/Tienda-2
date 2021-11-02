@@ -26,7 +26,7 @@ public class ProductoDAOTest {
 		System.out.println("> Entrando a debeObtenerProducto <");
 		ProductoDAO dao = new ProductoDAO();
 		
-		Producto productoHallado = dao.consultar(25, "Tapetes Yoga");
+		Producto productoHallado = dao.consultar(30, "Pesas");
 		
 		//asercion me permite verificar que efectivamente obtuvo el objeto
 		assertNotNull(productoHallado);
